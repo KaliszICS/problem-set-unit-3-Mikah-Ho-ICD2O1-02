@@ -16,11 +16,18 @@ public class ProblemSet {
 		System.out.print("Input two emails: ");
 		String emails = input.nextLine();
 
-		String email1 = emails.substring(0, emails.indexOf(","));
-		String email2 = emails.substring(emails.indexOf(",") + 2);
+		if (emails.contains(",")) {
+
+		    String email1 = emails.substring(0, emails.indexOf(","));
+		    String email2 = emails.substring(emails.indexOf(",") + 2);
 		
-		System.out.println(email1 + ": " + emailValidator(email1) + "\n" + 
-		email2 + ": " + emailValidator(email2));
+		    System.out.println(email1 + ": " + emailValidator(email1) + "\n" + 
+		    email2 + ": " + emailValidator(email2));
+		}
+		else {
+
+			System.out.println("Invalid format or nothing entered");
+		}
 
 	}
 

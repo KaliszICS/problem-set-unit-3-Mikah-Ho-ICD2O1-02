@@ -28,7 +28,7 @@ public class ProblemSet {
 
 		if (email.length() < 6) { //checking basic email components -- email needs to be at least 6 characters (c@c.cc)
 	    
-	        return "Invalid: Email too short";
+	        return "Invalid: Email too short or empty";
 	    }
 		
 		if (!email.contains("@")) {

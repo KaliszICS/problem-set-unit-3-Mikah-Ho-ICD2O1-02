@@ -25,7 +25,7 @@ public class ProblemSet {
 		    email2 + ": " + emailValidator(email2));
 		}
 		else {
-
+			// System.out.println(emails + ": " + emailValidator(emails)); //This would have made it work for one email.
 			System.out.println("Invalid format or nothing entered");
 		}
 
@@ -110,3 +110,4 @@ public class ProblemSet {
 
 // here's my random question:
 // which artist or song do you listen to that you consider the most underrated?
+// AKMU - specifically Lee Su-hyun who I think has one of the nicest voices to listen to in Kpop

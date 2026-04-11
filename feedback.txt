@@ -1,0 +1,9 @@
+K(30%): 100
+I(30%): 93
+C(10%): 100
+A(30%): 93
+95.8%
+
+Should still accept 1 email.
+"Starts and/or ends with invalid character(s)" Should specify the character (+, _, .)
+Otherwise great work Mikah!
